@@ -1,0 +1,15 @@
+{
+  "name": "sera",
+  "description": "SERA, méthode guidée d'évaluation de projets et de politiques publiques pour Claude.",
+  "owner": {
+    "name": "Shauri",
+    "url": "https://shauri.cc"
+  },
+  "plugins": [
+    {
+      "name": "sera",
+      "source": "./plugin/sera",
+      "description": "Méthode guidée d'évaluation de projets et de politiques publiques, des TDR à la restitution. Proposé par Shauri."
+    }
+  ]
+}
