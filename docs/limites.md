@@ -31,4 +31,4 @@ SERA propose trois profils (qualité, équilibré, économique) et vous conseill
 Lisez [Données et confidentialité](donnees-et-confidentialite.md) : SERA encadre le risque, il ne le supprime pas.
 
 **Ça marche avec une autre IA que Claude ?**
-SERA est écrit pour Claude. Les consignes sont du texte et pourraient inspirer d'autres outils, mais ce n'est ni testé ni prévu.
+Oui, avec ChatGPT : le même plugin s'y installe, en mode Cowork (voir [Installer SERA](installer.md)). SERA a été écrit et testé d'abord avec Claude. Dans ChatGPT, les sous-agents (codeurs et relecteurs indépendants) et les profils de modèles peuvent ne pas fonctionner comme prévu : signalez-nous ce qui ne marche pas. Les autres IA ne sont ni testées ni prévues.

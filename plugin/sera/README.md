@@ -48,10 +48,11 @@ Le découpage suit les *Normes de qualité pour l'évaluation du développement*
 
 ## Installation
 
-Il faut un abonnement Claude payant (Pro, Max, Team ou Enterprise), et l'application Claude avec Cowork ou Claude Code : SERA a besoin d'un dossier persistant et de Python. Dans le chat seul, il fonctionne en mode dégradé.
+SERA fonctionne dans Claude (abonnement payant, application avec Cowork ou Claude Code) ou dans ChatGPT (offre gratuite, mode Cowork) : il a besoin d'un dossier persistant et de Python. Dans le chat seul, il fonctionne en mode dégradé. Le guide pas à pas : [shauri.cc/sera](https://www.shauri.cc/sera).
 
-- **Application Claude (Cowork ou chat)** : Personnaliser → Plugins → Ajouter → Téléverser un plugin, puis choisir `sera-<version>.zip`. Dans Paramètres → Capacités, l'exécution de code doit être activée.
+- **Application Claude (Cowork ou chat)** : Personnaliser → Plugins → Ajouter → Téléverser un plugin, puis choisir `sera-claude-<version>.zip`. Dans Paramètres → Capacités, l'exécution de code doit être activée.
 - **Claude Code** : `claude plugin marketplace add Soguy-fr/sera` puis `claude plugin install sera@sera`.
+- **ChatGPT** : en mode Cowork, ajouter un plugin au format ZIP, puis choisir `sera-chatgpt-<version>.zip`. Connecter le dossier de l'évaluation à un projet.
 
 ## Démarrer
 

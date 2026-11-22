@@ -8,7 +8,7 @@ Le cas est décrit dans [exemples/cas-fictif/README.md](../exemples/cas-fictif/R
 
 1. Installez SERA ([Installer](installer.md)).
 2. Copiez le dossier `exemples/cas-fictif` sur votre ordinateur, par exemple dans `Documents/evaluations/pehy`.
-3. Connectez ce dossier à Claude (Cowork : « + » → « Add folder »).
+3. Connectez ce dossier à votre assistant (Claude Cowork : « + » → « Add folder » ; ChatGPT : connectez-le à votre projet).
 
 ## Étape 1 : le cadrage des TDR
 

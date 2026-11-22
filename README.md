@@ -1,6 +1,6 @@
 # SERA : Suivi, Évaluation, Redevabilité, Apprentissage
 
-**Une méthode guidée d'évaluation de projets et de politiques publiques, pour Claude.** SERA accompagne l'évaluateur pas à pas, des termes de référence à la restitution, comme le ferait un évaluateur senior : il propose, explique et vérifie. **Le jugement reste le vôtre.**
+**Une méthode guidée d'évaluation de projets et de politiques publiques, pour Claude et ChatGPT.** SERA accompagne l'évaluateur pas à pas, des termes de référence à la restitution, comme le ferait un évaluateur senior : il propose, explique et vérifie. **Le jugement reste le vôtre.**
 
 > **Bêta.** SERA est en cours de test. Vos retours sont précieux : [donnez votre avis](https://forms.gle/tNVJDj6FbKduRwCS8).
 
@@ -28,11 +28,14 @@ Le détail : [les étapes](docs/etapes.md).
 - Il ne garantit pas que vos données ne passent pas par l'IA. Il encadre ce risque : pseudonymisation, vérification avant chaque livrable. Lisez [Données et confidentialité](docs/donnees-et-confidentialite.md) avant de l'utiliser sur de vraies données.
 - Il ne couvre pas encore tout : voir [Limites et questions fréquentes](docs/limites.md).
 
-## Installer en 3 étapes
+## Installer
 
-1. Il vous faut un abonnement Claude payant et, de préférence, l'application Claude avec **Cowork**.
-2. Téléchargez `sera-<version>.zip` dans les [Releases](https://github.com/Soguy-fr/sera/releases), puis dans Claude : **Personnaliser → Plugins → Ajouter → Téléverser un plugin**.
-3. Connectez un dossier contenant vos TDR, et écrivez : « Je démarre une évaluation avec SERA, voici les TDR. »
+Le guide pas à pas, avec le guide PDF « Prendre en main SERA » : [shauri.cc/sera](https://www.shauri.cc/sera).
+
+- **Dans Claude** (abonnement payant, de préférence l'application avec **Cowork**) : **Personnaliser → Plugins → Ajouter → Ajouter une marketplace → Ajouter depuis un dépôt**, tapez `Soguy-fr/sera`, puis **Synchro**, et installez SERA.
+- **Dans ChatGPT** (l'offre gratuite suffit) : téléchargez `sera-chatgpt-<version>.zip` dans les [Releases](https://github.com/Soguy-fr/sera/releases), passez en mode **Cowork** et ajoutez-le comme plugin au format ZIP.
+
+Connectez ensuite un dossier contenant vos TDR, et écrivez : « Je démarre une évaluation avec SERA, voici les TDR. »
 
 Claude Code, mode dégradé, problèmes fréquents : [Installer SERA](docs/installer.md).
 
